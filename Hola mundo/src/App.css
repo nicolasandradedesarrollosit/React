@@ -1,0 +1,51 @@
+
+.card-follow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: .8rem;
+}
+
+.card-follow-header{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-follow-header-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-follow-header-info{
+  opacity: .6;
+  margin-left: 10px;
+}
+
+.avatar-follow{
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.btn-follow{
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card-follow-header-name{
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.App{
+   display: flex;
+   flex-direction: column;
+   gap: 8px
+}
