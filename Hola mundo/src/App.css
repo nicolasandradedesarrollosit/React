@@ -38,14 +38,29 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.btn-follow:hover{
+  background-color: #000;
+  color: #fff;
+  transition: all .3s ease-in;
+}
+
 .card-follow-header-name{
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   margin-left: 10px;
 }
+
 .App{
    display: flex;
    flex-direction: column;
    gap: 8px
+}
+
+.is-following{
+  margin-left: 16px;
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #000;
 }
