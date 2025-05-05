@@ -37,6 +37,7 @@
   padding: 6px 16px;
   font-weight: bold;
   cursor: pointer;
+  width: 100px;
 }
 
 .btn-follow:hover{
@@ -63,4 +64,27 @@
   background-color: #000;
   color: #fff;
   border: solid 1px #000;
+  background: transparent;
+}
+
+.is-following:hover{
+  background: transparent;
+  color: #d83434;
+  transition: all .3s ease-in;
+}
+
+.is-following:hover .stop-follow{
+  display: block; 
+}
+
+.is-following:hover .btn-follow{
+  display: none;
+}
+
+.is-following:hover .btn-text{
+  display: none;
+}
+
+.stop-follow{
+  display: none;
 }
